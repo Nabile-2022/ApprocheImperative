@@ -13,7 +13,7 @@ public class DeclarationApp
 		char g = '7';
 		boolean h = true;
 		String i = "i",
-				randomString = "Résultat:\n 1 + 5 = " + (1 + 5);
+				randomString = String.join("\n", "Résultat:", "1 + 5 = " + (1 + 5));
 		
 		System.out.println(randomString);
 	}
